@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Interest Calculator</title>
+</head>
+
+<body>
+    <script>
+        // Simple Interest Calculator Take Principal, Rate (in %), and Time (years) from the user). Calculate and show Simple Interest.
+        let principal = prompt("Enter Principal Amount:");
+        let rate = prompt("Enter Rate of Interest (in %):");
+        let time = prompt("Enter Time (in years):");
+
+        let simpleinterest = (principal * rate * time) / 100;
+        let interest = Number(simpleinterest);
+        console.log("Simple Interest:", interest);
+    </script>
+
+</body>
+
+</html>
